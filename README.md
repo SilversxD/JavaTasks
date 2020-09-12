@@ -1,4 +1,4 @@
 # JavaTasks
 ```diff
-@@ Salamaleikum **mtfk**, here ima chillin' in java things @@
+@@ Salamaleikum mtfks, here ima chillin' in java things @@
 ```
