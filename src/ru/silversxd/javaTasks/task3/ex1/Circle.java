@@ -1,4 +1,4 @@
-package ru.silversxd.javaTasks.task3;
+package ru.silversxd.javaTasks.task3.ex1;
 
 public class Circle {
     private int rad;
@@ -21,17 +21,23 @@ public class Circle {
         return rad;
     }
 
-    public void getDia(int dia) {
-        this.rad = rad*2;
+    public int getDia(int rad) {
+        return rad*2;
     }
 
     public void setRad(int rad) {
         this.rad = rad;
     }
 
-    public void getsKruga() {
-        this.sKruga = 3*rad*rad;
+    public int getsKruga() {
+        return 3*rad*rad;
     }
 
-
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "rad=" + rad +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }
