@@ -86,6 +86,6 @@ public class Main {
         task4(args);
         task5();
         task6();
-        task7(7);
+        task7(2);
     }
 }
