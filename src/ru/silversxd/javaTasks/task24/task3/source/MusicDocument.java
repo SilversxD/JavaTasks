@@ -1,0 +1,22 @@
+package ru.silversxd.javaTasks.task24.task3.source;
+
+public class MusicDocument extends IDocument {
+
+    public MusicDocument() {
+    }
+
+    @Override
+    public void open() {
+        System.out.println("Opened MusicDocument");
+    }
+
+    @Override
+    public void new_file() {
+        System.out.println("New MusicDocument");
+    }
+
+    @Override
+    public String getType() {
+        return "Music";
+    }
+}
